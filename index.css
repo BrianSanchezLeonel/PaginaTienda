@@ -1,0 +1,403 @@
+﻿*{
+    box-sizing:border-box;
+    margin:0;
+    font-family:Bahnschrift;
+}
+
+html, body{
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; 
+}
+
+header {
+    height: 100px;
+    display: flex;
+    background-color: white;
+}
+
+.NuevoHeader {
+    height: 100px;
+    display: flex;
+    background-color: #1E1E1E;
+}
+
+    header img , .NuevoHeader img{
+        display: flex;
+        margin: auto;
+        width: 130px;
+        margin-left: 70px;
+        height: 105px;
+    }
+    header img:hover , .NuevoHeader img:hover{
+        cursor:pointer;
+    }
+
+
+.contacto {
+    display: flex;
+    margin: auto;
+    margin-right: 40px;
+}
+
+
+
+header p {
+    color: black;
+    padding: 20px;
+    font-size: 23px;
+}
+
+    header p:hover , .NuevoHeader p:hover {
+        color: #0D99FF;
+        transition-duration: 0,7s;
+        cursor: pointer;
+    }
+
+.NuevoHeader p {
+    color: white;
+    padding: 20px;
+    font-size: 23px;
+}
+.fondo {
+    height: 400px;
+    background-image: url("Assets/Fondo.png");
+    background-size: cover;
+    background-position:center;
+}
+
+.texto{
+    margin:auto;
+    padding:150px;
+    text-align:center;
+    color:white;
+}
+
+.texto h1{
+    font-size:40px;
+}
+
+.texto p{
+    font-size:25px;
+}
+
+.catalogo {
+    background-color: #1E1E1E;
+    height: 100px;
+    color: white;
+    display: flex;
+}
+
+.texto2 {
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.catalogo img {
+    padding-right: 20px;
+}
+
+.futbolSK {
+    width: 260px;
+    height: 65px;
+}
+
+.LPF {
+    width: 105px;
+    height: 90px;
+}
+
+.champions {
+    width: 100px;
+    height: 80px;
+}
+
+.catalogo p{
+    font-size:30px;
+}
+
+.catalogo-slider{
+    height:400px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.slide-container{
+    max-width:1120px;
+    width:100%;
+    padding:40px;
+}
+
+.image-content, .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.card-image {
+    position: relative;
+    height: 230px;
+    width: 185px;
+    background-color: #E6E6E6;
+    border-radius: 5px;
+}
+
+    .card-image:hover {
+        cursor: pointer;
+        width: 200px;
+        height: 240px;
+    }
+
+.card-content{
+    color:black;
+    text-align:center;
+    font-size:10px;
+}
+
+.card-image .card-img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+
+footer {
+    height: 150px;
+    background-color: #1E1E1E;
+    display: flex;
+    color: white;
+}
+
+    footer img {
+        width: 140px;
+        height: 120px;
+        margin: auto;
+        margin-left: 30px;
+    }
+
+    footer table {
+        border-collapse: collapse;
+        width: 500px;
+    }
+
+        footer table tr td {
+            margin: 20px;
+            padding: 0px 40px;
+        }
+
+    footer table tr td:hover {
+        color: #0D99FF;
+        transition-duration: 0,7s;
+        cursor: pointer;
+    }
+
+    footer img:hover{
+        cursor:pointer;
+    }
+
+.copy {
+    height: 100px;
+    margin: auto;
+    width: 200px;
+}
+
+.detalle {
+    display: flex;
+    height: 566px;
+    background-color: white;
+}
+
+.slider {
+    width: 456px;
+    margin: auto;
+}
+
+.info {
+    margin: auto;
+    display: flex;
+    height: 420px;
+    align-items: center;
+    border-left: solid 2px gainsboro;
+}
+
+.text {
+    margin: auto;
+    height: 90%;
+    margin-left: 10px;
+}
+
+    .text h1 {
+        font-size: 25px;
+        margin-bottom: 6px;
+    }
+
+    .text p {
+        font-size: larger;
+        margin-bottom: 29px;
+    }
+
+.botones{
+    display:flex;
+}
+
+    .botones button {
+        background-color: #B3B3B3;
+        padding: 18px 22px;
+        display: flex;
+        width: max-content;
+        font-size: larger;
+        margin: auto;
+        margin-right: 5px;
+        border-radius: 10px;
+        border: none;
+    }
+
+    .botones button:hover{
+        cursor:pointer;
+        transition-duration:0,7s;
+        border:solid 1px black;
+    }
+
+        .botones button:active {
+            background-color: #8D8181;
+            border: solid 1px black;
+        }
+
+.cant {
+    margin-top: 20px;
+    display:flex;
+}
+
+    .cant p {
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    .cant select {
+        padding: 20px;
+        margin: auto;
+        margin-left: 10px;
+        border-radius: 5px;
+        font-size: larger;
+        border: none;
+        background-color: #B3B3B3;
+    }
+
+.boton1 {
+    display: flex;
+    margin: auto;
+    width: 300px;
+    margin-top: 15px;
+    padding: 0px 23%;
+    background-color: #0D99FF;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+}
+
+    .boton1:hover {
+        cursor: pointer;
+        background-color: #1B679E;
+    }
+
+.boton2 {
+    display: flex;
+    margin: auto;
+    width: 300px;
+    margin-top: 15px;
+    background-color: #0D99FF;
+    height: 40px;
+    padding: 0px 35%;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+}
+
+.boton2:hover {
+    cursor: pointer;
+    background-color: #1B679E;
+}
+
+@media (max-width:850px){
+    .copy p{
+        font-size: 13px;
+    }
+}
+
+@media (max-width:800px){
+    .contacto p{
+        font-size: 17px;
+    }
+
+    .texto{
+        padding: 100px;
+    }
+
+    .texto h1{
+        font-size: 36px;
+    }
+    footer table tr td{
+        padding: 0px 20px;
+    }
+
+    .detalle{
+        display: block;
+        height: unset;
+    }
+
+    .info{
+        border-left: unset;
+        margin-bottom: 20px;
+    }
+
+    .text{ 
+        margin-left: auto;
+    }
+}
+
+@media (max-width:650px){
+    .texto2 p{
+        font-size: 21px;
+    }
+
+    .futbolSK{
+        width: 200px;
+        height: 50px;
+    }
+
+    header img{
+        width: 110px;
+        height: 85px;
+        margin-left: 20px;
+    }
+
+    footer img{
+        width: 100px;
+        height: 80px;
+    }
+
+    footer table tr td{
+        font-size: 11px;
+    }
+
+    .copy p{
+        font-size: 9px;
+    }
+
+    .NuevoHeader img{
+        display: flex;
+        margin: 10px;
+        width: 100px;
+        height: 80px;
+    }
+}
